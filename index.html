@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>VegeStore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body id="Home">
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">VegeStore</label>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Our">Our Packages</a></li>
+            <li><a href="#Call">Call Us</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="title">
+                <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="contain">
+            <div class="sliders">
+                <div class="slider">
+                    <img src="img/sawi.jpg">
+                </div>
+                <div class="slider">
+                    <img src="img/tomato.jpg">
+                </div>
+                <div class="slider">
+                    <img src="img/kale.jpg">
+                </div>
+                <div class="slider">
+                    <img src="img/cabe.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="kontak">
+            <h4>Contact Us</h4>
+            <p>Sales will contact you 1x24 hours after we receive the data</p>
+            <div class="input">
+                <form id="form" method="GET" action="/">
+                    <label for="name">Your Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Input your name" required><h6 id="name-error" class="error-message"></h6><br><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Input your email" required><h6 id="email-error" class="error-message"></h6><br><br>
+                    <label for="lang">Orders</label><br>
+                    <select name="selected" id="selected">
+                        <option value="Tomato">Tomato</option>
+                        <option value="Cabe">Cabe</option>
+                        <option value="Sawi">Sawi</option>
+                        <option value="Kale">Kale</option>
+                    </select><br>
+                    <button id="Our" type="submit">Send</button><br><br>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="title-2">
+            <h1>
+                Our Packages
+            </h1>
+        </div>
+    </section>
+
+    <section>
+        <div class="box-conatiner">
+            <div class="box box1">
+                <div class="content">
+                    <img src="img/tomato.jpg" width="100px">
+                    <h1 class="card">Fresh Vegetables</h1>
+                    <p class="text">Fresh vegetables directly from the best agricultural sources. Vegetables are a
+                        source of vitamins and minerals that are
+                        beneficial for body health.
+                    </p>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="content">
+                    <img src="img/sawi.jpg" width="100px">
+                    <h1 class="card">Fresh Fruit</h1>
+                    <p class="text">Fresh fruit directly from the best agricultural sources. Fruit is a source of
+                        vitamins and minerals that are beneficial
+                        for body health.</p>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="content">
+                    <img src="img/cabe.jpg" width="100px" height="65px">
+                    <h1 class="card">Instant Delivery</h1>
+                    <p class="text">Fast goods delivery service with cheap postage, as well as many nearby delivery
+                        agent locations, supported by Lion
+                        aircraft transportation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="Call" class="call">
+            <h1>
+                Call Us
+            </h1>
+            <div class="contact">
+                <p>If you have questions/concerns, please contact our Customer Experience via E-mail click button bellow
+                </p>
+            </div>
+            <div class="button">
+                <button>Mail</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="foot">
+        <h5>
+        &copy 2024 All Rights Reserved VegeStore | Firman Hidayatullah
+        </h5>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
